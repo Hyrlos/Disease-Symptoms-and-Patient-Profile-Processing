@@ -1,0 +1,45 @@
+Disease,Fever,Cough,Fatigue,Difficulty Breathing,Young,Average Age,Old,Low Blood Pressure,High Blood Pressure,Low Cholesterol Level,High Cholesterol Level
+Bipolar Disorder,,,x,,,x,,,x,,x
+Cerebral Palsy,,,x,x,,x,,,,,
+Colorectal Cancer,,,x,,,x,,,,,x
+Hypertensive Heart Disease,,,x,,,x,,,x,,x
+Myocardial Infarction (Heart...,x,x,x,x,,x,,,x,,x
+Urinary Tract Infection (UTI),x,,,,,x,,,,,
+Common Cold,x,,x,x,,x,,,x,,x
+Cirrhosis,,,x,,,x,,,,,x
+Conjunctivitis (Pink Eye),,x,,,,x,,,x,,x
+Malaria,x,,,,,x,,,x,,x
+Spina Bifida,,,x,,,x,,,,,
+Chickenpox,,x,,,,x,,,,,x
+"Eating Disorders (Anorexia,...",,,x,,,x,,,x,,x
+Fibromyalgia,,,x,,,x,,,x,,x
+Hypoglycemia,,,x,,,x,,,x,,x
+Lymphoma,,x,,,,x,,,,,x
+Allergic Rhinitis,x,x,x,,,x,,,x,,
+Cataracts,,,x,,,x,,,,,x
+Pneumocystis Pneumonia (PCP),x,x,x,,,x,,,x,,x
+Scoliosis,,,,,,x,,,x,,x
+Sickle Cell Anemia,,,x,,,x,,,,,
+Tetanus,,,x,,,x,,,,,x
+Down Syndrome,,,x,,,x,,,x,,x
+Ebola Virus,x,x,x,x,,x,,,,,
+Lyme Disease,x,,,,,x,,,,,x
+Pancreatic Cancer,,,x,,,x,,,x,,x
+Pneumothorax,,,x,x,,x,,,x,,x
+Hemorrhoids,,,,,,x,,,x,,x
+Polycystic Ovary Syndrome (PCOS),x,x,,,,x,,,,,
+Systemic Lupus Erythematosus...,,x,x,,,x,,,x,,x
+Typhoid Fever,,x,,,,x,,,,x,
+Chronic Kidney Disease,,,x,,,x,,,,,x
+Hepatitis B,,x,x,,,x,,,,x,
+Parkinson's Disease,x,x,,,,x,,,x,,
+Prader-Willi Syndrome,,,x,,,x,,,,,
+Thyroid Cancer,,,x,,,x,,,x,,x
+Chronic Obstructive Pulmonary Disease (COPD),x,,x,x,,x,,,x,,x
+Dementia,,,x,,,x,,,x,,x
+Diverticulitis,,,x,,,x,,,x,,x
+Mumps,,,x,,,x,,,,,x
+Gout,x,,x,,,,x,,,,x
+Testicular Cancer,,,x,,,,x,,x,,x
+Tonsillitis,x,x,x,,,,x,,x,,x
+Williams Syndrome,,,x,,,,x,,,,

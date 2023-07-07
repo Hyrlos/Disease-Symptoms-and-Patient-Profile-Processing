@@ -1,0 +1,93 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 11, E: 0)|Fever\nCough\nFatigue\nDifficulty Breathing\nYoung\nAverage Age\nOld\nLow Blood Pressure\nHigh Blood Pressure\nLow Cholesterol Level\nHigh Cholesterol Level\n|}"];
+1 [shape=record,style=filled,label="{1 (I: 7, E: 1)|Fever\nCough\nFatigue\nDifficulty Breathing\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\n}"];
+2 [shape=record,style=filled,fillcolor=orange,label="{2 (I: 6, E: 3)|Fever\nFatigue\nDifficulty Breathing\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nCommon Cold\nChronic Obstructive Pulmonary Disease (COPD)\n}"];
+3 [shape=record,style=filled,label="{3 (I: 6, E: 2)|Fever\nCough\nFatigue\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nPneumocystis Pneumonia (PCP)\n}"];
+4 [shape=record,style=filled,label="{4 (I: 6, E: 1)|Fever\nCough\nFatigue\nOld\nHigh Blood Pressure\nHigh Cholesterol Level\n|Tonsillitis\n}"];
+5 [shape=record,style=filled,label="{5 (I: 5, E: 3)|Fever\nCough\nFatigue\nAverage Age\nHigh Blood Pressure\n|Myocardial Infarction (Heart...\nAllergic Rhinitis\nPneumocystis Pneumonia (PCP)\n}"];
+6 [shape=record,style=filled,label="{6 (I: 5, E: 2)|Fever\nCough\nFatigue\nDifficulty Breathing\nAverage Age\n|Myocardial Infarction (Heart...\nEbola Virus\n}"];
+7 [shape=record,style=filled,label="{7 (I: 5, E: 4)|Fatigue\nDifficulty Breathing\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nCommon Cold\nPneumothorax\nChronic Obstructive Pulmonary Disease (COPD)\n}"];
+8 [shape=record,style=filled,label="{8 (I: 5, E: 3)|Cough\nFatigue\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nPneumocystis Pneumonia (PCP)\nSystemic Lupus Erythematosus...\n}"];
+9 [shape=record,style=filled,fillcolor=orange,label="{9 (I: 4, E: 16)|Fatigue\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Bipolar Disorder\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nCommon Cold\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nPneumocystis Pneumonia (PCP)\nDown Syndrome\nPancreatic Cancer\nPneumothorax\nSystemic Lupus Erythematosus...\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\n}"];
+10 [shape=record,style=filled,label="{10 (I: 4, E: 4)|Cough\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nConjunctivitis (Pink Eye)\nPneumocystis Pneumonia (PCP)\nSystemic Lupus Erythematosus...\n}"];
+11 [shape=record,style=filled,label="{11 (I: 4, E: 5)|Fever\nAverage Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nCommon Cold\nMalaria\nPneumocystis Pneumonia (PCP)\nChronic Obstructive Pulmonary Disease (COPD)\n}"];
+12 [shape=record,style=filled,label="{12 (I: 4, E: 1)|Cough\nFatigue\nAverage Age\nLow Cholesterol Level\n|Hepatitis B\n}"];
+13 [shape=record,style=filled,label="{13 (I: 4, E: 4)|Fever\nCough\nAverage Age\nHigh Blood Pressure\n|Myocardial Infarction (Heart...\nAllergic Rhinitis\nPneumocystis Pneumonia (PCP)\nParkinson's Disease\n}"];
+14 [shape=record,style=filled,label="{14 (I: 4, E: 2)|Fever\nFatigue\nOld\nHigh Cholesterol Level\n|Gout\nTonsillitis\n}"];
+15 [shape=record,style=filled,label="{15 (I: 4, E: 2)|Fatigue\nOld\nHigh Blood Pressure\nHigh Cholesterol Level\n|Testicular Cancer\nTonsillitis\n}"];
+16 [shape=record,style=filled,label="{16 (I: 3, E: 6)|Fatigue\nDifficulty Breathing\nAverage Age\n|Cerebral Palsy\nMyocardial Infarction (Heart...\nCommon Cold\nEbola Virus\nPneumothorax\nChronic Obstructive Pulmonary Disease (COPD)\n}"];
+17 [shape=record,style=filled,fillcolor=orange,label="{17 (I: 3, E: 22)|Fatigue\nAverage Age\nHigh Cholesterol Level\n|Bipolar Disorder\nColorectal Cancer\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nCommon Cold\nCirrhosis\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nCataracts\nPneumocystis Pneumonia (PCP)\nTetanus\nDown Syndrome\nPancreatic Cancer\nPneumothorax\nSystemic Lupus Erythematosus...\nChronic Kidney Disease\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\nMumps\n}"];
+18 [shape=record,style=filled,fillcolor=orange,label="{18 (I: 3, E: 6)|Cough\nAverage Age\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nConjunctivitis (Pink Eye)\nChickenpox\nLymphoma\nPneumocystis Pneumonia (PCP)\nSystemic Lupus Erythematosus...\n}"];
+19 [shape=record,style=filled,fillcolor=orange,label="{19 (I: 3, E: 20)|Average Age\nHigh Blood Pressure\nHigh Cholesterol Level\n|Bipolar Disorder\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nCommon Cold\nConjunctivitis (Pink Eye)\nMalaria\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nPneumocystis Pneumonia (PCP)\nScoliosis\nDown Syndrome\nPancreatic Cancer\nPneumothorax\nHemorrhoids\nSystemic Lupus Erythematosus...\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\n}"];
+20 [shape=record,style=filled,label="{20 (I: 3, E: 6)|Fever\nAverage Age\nHigh Cholesterol Level\n|Myocardial Infarction (Heart...\nCommon Cold\nMalaria\nPneumocystis Pneumonia (PCP)\nLyme Disease\nChronic Obstructive Pulmonary Disease (COPD)\n}"];
+21 [shape=record,style=filled,label="{21 (I: 3, E: 6)|Fever\nCough\nAverage Age\n|Myocardial Infarction (Heart...\nAllergic Rhinitis\nPneumocystis Pneumonia (PCP)\nEbola Virus\nPolycystic Ovary Syndrome (PCOS)\nParkinson's Disease\n}"];
+22 [shape=record,style=filled,label="{22 (I: 3, E: 2)|Cough\nAverage Age\nLow Cholesterol Level\n|Typhoid Fever\nHepatitis B\n}"];
+23 [shape=record,style=filled,label="{23 (I: 2, E: 11)|Fever\nAverage Age\n|Myocardial Infarction (Heart...\nUrinary Tract Infection (UTI)\nCommon Cold\nMalaria\nAllergic Rhinitis\nPneumocystis Pneumonia (PCP)\nEbola Virus\nLyme Disease\nPolycystic Ovary Syndrome (PCOS)\nParkinson's Disease\nChronic Obstructive Pulmonary Disease (COPD)\n}"];
+24 [shape=record,style=filled,fillcolor=orange,label="{24 (I: 2, E: 29)|Fatigue\nAverage Age\n|Bipolar Disorder\nCerebral Palsy\nColorectal Cancer\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nCommon Cold\nCirrhosis\nSpina Bifida\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nAllergic Rhinitis\nCataracts\nPneumocystis Pneumonia (PCP)\nSickle Cell Anemia\nTetanus\nDown Syndrome\nEbola Virus\nPancreatic Cancer\nPneumothorax\nSystemic Lupus Erythematosus...\nChronic Kidney Disease\nHepatitis B\nPrader-Willi Syndrome\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\nMumps\n}"];
+25 [shape=record,style=filled,label="{25 (I: 2, E: 4)|Fatigue\nOld\n|Gout\nTesticular Cancer\nTonsillitis\nWilliams Syndrome\n}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 1, E: 40)|Average Age\n|Bipolar Disorder\nCerebral Palsy\nColorectal Cancer\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nUrinary Tract Infection (UTI)\nCommon Cold\nCirrhosis\nConjunctivitis (Pink Eye)\nMalaria\nSpina Bifida\nChickenpox\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nLymphoma\nAllergic Rhinitis\nCataracts\nPneumocystis Pneumonia (PCP)\nScoliosis\nSickle Cell Anemia\nTetanus\nDown Syndrome\nEbola Virus\nLyme Disease\nPancreatic Cancer\nPneumothorax\nHemorrhoids\nPolycystic Ovary Syndrome (PCOS)\nSystemic Lupus Erythematosus...\nTyphoid Fever\nChronic Kidney Disease\nHepatitis B\nParkinson's Disease\nPrader-Willi Syndrome\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\nMumps\n}"];
+27 [shape=record,style=filled,fillcolor=lightblue,label="{27 (I: 1, E: 33)|Fatigue\n|Bipolar Disorder\nCerebral Palsy\nColorectal Cancer\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nCommon Cold\nCirrhosis\nSpina Bifida\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nAllergic Rhinitis\nCataracts\nPneumocystis Pneumonia (PCP)\nSickle Cell Anemia\nTetanus\nDown Syndrome\nEbola Virus\nPancreatic Cancer\nPneumothorax\nSystemic Lupus Erythematosus...\nChronic Kidney Disease\nHepatitis B\nPrader-Willi Syndrome\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\nMumps\nGout\nTesticular Cancer\nTonsillitis\nWilliams Syndrome\n}"];
+28 [shape=record,style=filled,fillcolor=lightblue,label="{28 (I: 1, E: 32)|High Cholesterol Level\n|Bipolar Disorder\nColorectal Cancer\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nCommon Cold\nCirrhosis\nConjunctivitis (Pink Eye)\nMalaria\nChickenpox\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nLymphoma\nCataracts\nPneumocystis Pneumonia (PCP)\nScoliosis\nTetanus\nDown Syndrome\nLyme Disease\nPancreatic Cancer\nPneumothorax\nHemorrhoids\nSystemic Lupus Erythematosus...\nChronic Kidney Disease\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\nMumps\nGout\nTesticular Cancer\nTonsillitis\n}"];
+29 [shape=record,style=filled,fillcolor=lightblue,label="{29 (I: 1, E: 24)|High Blood Pressure\n|Bipolar Disorder\nHypertensive Heart Disease\nMyocardial Infarction (Heart...\nCommon Cold\nConjunctivitis (Pink Eye)\nMalaria\nEating Disorders (Anorexia,...\nFibromyalgia\nHypoglycemia\nAllergic Rhinitis\nPneumocystis Pneumonia (PCP)\nScoliosis\nDown Syndrome\nPancreatic Cancer\nPneumothorax\nHemorrhoids\nSystemic Lupus Erythematosus...\nParkinson's Disease\nThyroid Cancer\nChronic Obstructive Pulmonary Disease (COPD)\nDementia\nDiverticulitis\nTesticular Cancer\nTonsillitis\n}"];
+30 [shape=record,style=filled,fillcolor=lightblue,label="{30 (I: 1, E: 13)|Fever\n|Myocardial Infarction (Heart...\nUrinary Tract Infection (UTI)\nCommon Cold\nMalaria\nAllergic Rhinitis\nPneumocystis Pneumonia (PCP)\nEbola Virus\nLyme Disease\nPolycystic Ovary Syndrome (PCOS)\nParkinson's Disease\nChronic Obstructive Pulmonary Disease (COPD)\nGout\nTonsillitis\n}"];
+31 [shape=record,style=filled,fillcolor=lightblue,label="{31 (I: 1, E: 13)|Cough\n|Myocardial Infarction (Heart...\nConjunctivitis (Pink Eye)\nChickenpox\nLymphoma\nAllergic Rhinitis\nPneumocystis Pneumonia (PCP)\nEbola Virus\nPolycystic Ovary Syndrome (PCOS)\nSystemic Lupus Erythematosus...\nTyphoid Fever\nHepatitis B\nParkinson's Disease\nTonsillitis\n}"];
+	0 -> 1
+	0 -> 4
+	0 -> 12
+	1 -> 2
+	1 -> 3
+	1 -> 6
+	2 -> 7
+	2 -> 11
+	3 -> 5
+	3 -> 8
+	3 -> 11
+	4 -> 14
+	4 -> 15
+	4 -> 31
+	5 -> 13
+	5 -> 24
+	6 -> 16
+	6 -> 21
+	7 -> 9
+	7 -> 16
+	8 -> 9
+	8 -> 10
+	9 -> 17
+	9 -> 19
+	10 -> 18
+	10 -> 19
+	11 -> 19
+	11 -> 20
+	12 -> 22
+	12 -> 24
+	13 -> 21
+	13 -> 29
+	14 -> 25
+	14 -> 28
+	14 -> 30
+	15 -> 25
+	15 -> 28
+	15 -> 29
+	16 -> 24
+	17 -> 24
+	17 -> 28
+	18 -> 26
+	18 -> 28
+	18 -> 31
+	19 -> 26
+	19 -> 28
+	19 -> 29
+	20 -> 23
+	20 -> 28
+	21 -> 23
+	21 -> 31
+	22 -> 26
+	22 -> 31
+	23 -> 26
+	23 -> 30
+	24 -> 26
+	24 -> 27
+	25 -> 27
+}

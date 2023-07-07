@@ -1,8 +1,24 @@
 # Disease Symptoms and Patient Profile for FCA processing  
-**Goal**: Leverage the Formal Concept Analysis to explore the Disease Symptoms.  
+**Goal**: Leverage the Formal Concept Analysis to explore diseases symptoms.  
 The data came from a kaggle dataset: https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset  
+
+## Dependancy
+- Python/notebook
+- Pandas
+- graphviz
+
+## Repository  
+- [FCA for disease.ipynb](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/FCA%20for%20disease.ipynb): a notebook used to clean the dataset et run FCA  
+   - Age threshold  
+   - Blood Pressure  
+   - Cholesterol Level  
+   - remove Negative Outcome Variable  
+   - Remove no homogeneous disease  
+- [Dataset/disease-symptoms-and-patient-profile-dataset](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/dataset/Disease_symptom_and_patient_profile_dataset.csv): [the dataset from kaggle](https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset) 
+- [aocDisease.jpg](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDiseaseFULL.jpg): an AOC-Poset with all the intents and extends  
+- [aocDisease.jpg](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDisease.jpg): a reduced AOC-Poset  
   
-## Formal Concept Analysis  
+## Formal Concept Analysis  
 The Formal Concept Analysis (FCA) is a mathematical framework used for analyzing and organizing data based on the concept of formal concepts. It provides a way to discover relationships between objects and attributes within a given dataset.   
   
 At the core of FCA is the concept of a formal context. A formal context consists of a set of objects, a set of attributes, and a binary relation between the objects and attributes. The binary relation indicates whether an object possesses a certain attribute or not. It establishes a connection between objects and attributes based on their presence or absence.  
@@ -22,12 +38,16 @@ The AOC Poset is often visualized as a lattice diagram, with each node represent
   
 In summary, Formal Concept Analysis (FCA) is a mathematical framework that uses formal contexts to analyze and organize data. Formal contexts consist of objects, attributes, and a binary relation between them. FCA aims to identify formal concepts, which are pairs of sets representing subsets of objects and attributes that share common properties. The set of all formal concepts can be organized into a partially ordered set called the AOC Poset or concept lattice, which represents the hierarchy of concepts based on their inclusion relationships.  
   
-## How to read the AOC-Poset 
-- The top node of the AOC Poset represents the most general concept. It encompasses all diseases and symptoms in the formal context.
-- Each lower node represents a more specialized concept that captures a subset of diseases and symptoms
-- These symptoms are common to the diseases within that concept
-- If concept A is higher in the hierarchy than concept B, it means that concept A includes a broader range of diseases and symptoms than concept B. 
-- The edges in the lattice represent this hierarchical relationship.
+## How to read the AOC-Poset   
+- The top node of the AOC Poset represents the most general concept. It encompasses all diseases and symptoms in the formal context.  
+- Each lower node represents a more specialized concept that captures a subset of diseases and symptoms  
+- These symptoms are common to the diseases within that concept  
+- If concept A is higher in the hierarchy than concept B, it means that concept A includes a broader range of diseases and symptoms than concept B.   
+- The edges in the lattice represent this hierarchical relationship.  
+## Credits
+Wrote by [Thomas GEORGES](https://www.linkedin.com/in/thomas-georges-pro/)  
 
-## OUTPUT
-[output](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDisease.gv.jpg)
+## OUTPUT  
+![output](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDiseaseFULL.jpg)  
+![output](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDisease.jpg)  
+

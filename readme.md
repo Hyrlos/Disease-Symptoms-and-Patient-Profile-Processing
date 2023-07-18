@@ -2,17 +2,17 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/HEAD?labpath=FCA%20for%20disease.ipynb)
 
-**Goal**: Leverage the Formal Concept Analysis to explore diseases symptoms.  
+# Readme
+- **Goal**: Leverage the Formal Concept Analysis to explore diseases symptoms.  
 The data came from a kaggle dataset: https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset  
+- [**Outputs**](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/edit/master/readme.md#output)
 
 ## Dependancy
-
 - Python/notebook
 - Pandas
 - graphviz
 
 ## Repository  
-
 - [FCA for disease.ipynb](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/FCA%20for%20disease.ipynb): a notebook used to clean the dataset et run FCA  
    - Age threshold  
    - Blood Pressure  
@@ -20,10 +20,10 @@ The data came from a kaggle dataset: https://www.kaggle.com/datasets/uom190346a/
    - remove Negative Outcome Variable  
    - Remove no homogeneous disease  
 - [Dataset/disease-symptoms-and-patient-profile-dataset](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/dataset/Disease_symptom_and_patient_profile_dataset.csv): [the dataset from kaggle](https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset) 
-- [aocDiseaseFULL.jpg](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDiseaseFULL.jpg): an AOC-Poset with all the intents and extends  
-- [aocDisease.jpg](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDisease.jpg): a reduced AOC-Poset  
+- [aocDiseaseFULL.jpg](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/output/aocDiseaseFULL.dot.jpg): an AOC-Poset with all the intents and extends  
+- [aocDisease.jpg](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/output/aocDisease.dot.jpg): a reduced AOC-Poset  
   
-## Formal Concept Analysis  
+## Formal Concept Analysis 
 
 The Formal Concept Analysis (FCA) is a mathematical framework used for analyzing and organizing data based on the concept of formal concepts. It provides a way to discover relationships between objects and attributes within a given dataset.   
   
@@ -44,7 +44,7 @@ The AOC Poset is often visualized as a lattice diagram, with each node represent
   
 In summary, Formal Concept Analysis (FCA) is a mathematical framework that uses formal contexts to analyze and organize data. Formal contexts consist of objects, attributes, and a binary relation between them. FCA aims to identify formal concepts, which are pairs of sets representing subsets of objects and attributes that share common properties. The set of all formal concepts can be organized into a partially ordered set called the AOC Poset or concept lattice, which represents the hierarchy of concepts based on their inclusion relationships.  
   
-## How to read the AOC-Poset   
+## How to read the AOC-Poset 
 
 - The top node of the AOC Poset represents the most general concept. It encompasses all diseases and symptoms in the formal context.  
 - Each lower node represents a more specialized concept that captures a subset of diseases and symptoms  
@@ -55,6 +55,8 @@ In summary, Formal Concept Analysis (FCA) is a mathematical framework that uses 
 ## Credits
 
 Wrote by [Thomas GEORGES](https://hyrlos.github.io/)  
+
+
 
 ## OUTPUT  
 

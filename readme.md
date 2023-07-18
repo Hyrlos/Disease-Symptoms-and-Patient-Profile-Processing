@@ -60,6 +60,6 @@ Wrote by [Thomas GEORGES](https://hyrlos.github.io/)
 
 ## OUTPUT  
 
-![output](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDiseaseFULL.jpg)  
-![output](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/aocDisease.jpg)  
+![output](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/output/aocDiseaseFULL.jpg)  
+![output](https://github.com/Hyrlos/Disease-Symptoms-and-Patient-Profile-Processing/blob/master/output/aocDisease.jpg)  
 
